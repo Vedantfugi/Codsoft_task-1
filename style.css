@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 10px 0;
+}
+
+header .navbar-brand img {
+    max-width: 100px;
+}
+
+header .navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #f0ad4e;
+}
+
+/* Banner Section */
+.banner-image {
+    background: url('./img/img7.jpg') no-repeat center center/cover;
+    height: 500px;
+}
+
+/* Services Section */
+#services .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+#services .card:hover {
+    transform: scale(1.05);
+}
+
+#services .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Trainers Section */
+#trainers .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+#trainers .card:hover {
+    transform: scale(1.05);
+}
+
+#trainers .card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+#contact form {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact .form-label {
+    font-weight: bold;
+}
+
+#contact .btn-warning {
+    background: #f0ad4e;
+    border: none;
+}
+
+#contact .btn-warning:hover {
+    background: #e99e3c;
+}
+
+/* Footer Section */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer img {
+    max-width: 80px;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    border-top: 1px solid #555;
+}
+
+footer .text-center {
+    margin-top: 20px;
+    font-size: 14px;
+}
